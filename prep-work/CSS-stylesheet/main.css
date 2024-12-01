@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    margin: 0;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #3f51b5;
+    background-color: #e0e0e0;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px;
+    margin: 8px 0;
+    font-weight: normal;
+    color: #444;
+    background-color: #fafafa;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    padding: 10px;
+    margin: 10px 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+.page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    padding: 0 20px;
+}
+
+.story-box {
+    background-color: #fafafa;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    background-size: cover;
+    background-image: url(' https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png');
+    background-color: #ddd;
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+}
+
